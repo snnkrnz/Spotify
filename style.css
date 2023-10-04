@@ -261,13 +261,22 @@ a {
 }
 
 .toplistli{
-  background-color: #000;
+  background-color: #000000a1;
   width: 32.5%;
   height: 96px;
   border-radius: 7px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+}
+
+.toplistimg img{
+  display: flex;
+  width: 96px;
+  height: 96px;
+  margin-right: 20px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
 }
 
 .alllist {
@@ -275,28 +284,51 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 250px;
   margin-top: 10px;
 }
 
 .alllistul{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   overflow: hidden;
   width: 100%;
   height: inherit;
 }
 
 .alllistli{
-  background-color: #000;
-  width: 150px;
+  background-color: #00000070;
+  width: 170px;
   height: inherit;
   border-radius: 7px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-right: 20px;
+  flex-direction: column;
+}
+
+.alllistimg {
+  margin-top: 10px;
+}
+
+.alllistimg img{
+  width: 100%;
+  height: 150px;
+  border-radius: 7px;
+}
+
+.alllistsong {
+  font-weight: bold;
+}
+
+.alllistsong2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  height: 60px;
+  padding: 3px 7px;
+  font-size: .9rem;
+  overflow: hidden;
 }
 
 .player {
@@ -383,3 +415,4 @@ input[type='range'] {
   position: relative;
   bottom: 3px;
 }
+
